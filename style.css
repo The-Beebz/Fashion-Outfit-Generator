@@ -1,0 +1,51 @@
+body {
+  padding: 2%;
+  margin: 2%;
+}
+
+
+
+th {
+	height:100px;
+	width: 100px;
+}
+
+tr.neat > th {
+	height:30px;
+	width: auto;
+	padding: 5px;
+}
+
+#swap {
+  border: none;
+  background-color: inherit;
+  display: inline-block;
+  cursor: pointer;
+}
+div.outfitdisplay > table {
+	display: inline-block;
+	padding: 1%;
+	margin: 1%;
+}
+
+div.options {
+	float:left;
+	display:block;
+}
+
+table th {
+	font-weight:normal;
+}
+
+select {
+	width: 130px;
+}
+
+.left {
+	text-align:left;
+}
+
+.sleeveFlip > img {
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}

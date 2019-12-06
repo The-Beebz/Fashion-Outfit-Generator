@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Outfit Generator</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="javascriptdress.js"></script>
+	</head>
+	<body>
+	
+		<h1>Outfit Generator</h1>
+		Generate an Outfit!
+		<br><br>
+			<div class="options">
+			<table class="styletable">
+			<div class="neckline">
+					<tr class="neat">
+					<th></th>
+					<th><button onclick="randomAll()">RANDOMIZE ALL</button></th>
+					<th></th>
+					</tr>
+					<tr class="neat">
+					<th class="left">Neckline Style:</th>
+							<th><select id="neckStyle" onchange="neckDisplay()">
+								<option value="neck/asymmetric.jpg">Asymmetric</option>
+								<option value="neck/bateau.jpg">Bateau</option>
+								<option value="neck/cowl.jpg">Cowl</option>
+								<option value="neck/grecian.jpg">Grecian</option>
+								<option value="neck/halter.jpg">Halter</option>
+								<option value="neck/halterstrap.jpg">Halter Strap</option>
+								<option value="neck/highneck.jpg">High Neck</option>
+								<option value="neck/illusion.jpg">Illusion</option>
+								<option value="neck/jewel.jpg">Jewel</option>
+								<option value="neck/offshoulder.jpg">Offshoulder</option>
+								<option value="neck/queenanne.jpg">Queen Anne</option>
+								<option value="neck/sabrina.jpg">Sabrina</option>
+								<option value="neck/scoop.jpg">Scoop</option>
+								<option value="neck/spaghettistrap.jpg">Spaghetti Strap</option>
+								<option value="neck/square.jpg">Square</option>
+								<option value="neck/straight.jpg">Straight</option>
+								<option value="neck/sweetheart.jpg">Sweetheart</option>
+								<option value="neck/vneck.jpg">V Neck</option>
+							</select></th>
+							<th><button onclick="randomNeck()">RANDOMIZE</button></th>
+					</tr>
+			</div>
+			<div class="sleeve">
+				<tr class="neat">
+				<th class="left">Sleeve Style:</th>
+				<th><select id="sleeveStyle" onchange="sleeveDisplay()">
+				<option value="sleeve/batwing.jpg">Batwing</option>
+				<option value="sleeve/bell.jpg">Bell</option>
+				<option value="sleeve/bishop.jpg">Bishop</option>
+				<option value="sleeve/bracelet.jpg">Bracelet</option>
+				<option value="sleeve/butterfly.jpg">Butterfly</option>
+				<option value="sleeve/buttontab.jpg">Button Tab</option>
+				<option value="sleeve/cape.jpg">Cape</option>
+				<option value="sleeve/circularcap.jpg">Circular Cap</option>
+				<option value="sleeve/cowl.jpg">Cowl</option>
+				<option value="sleeve/dropshoulder.jpg">Drop Shoulder</option>
+				<option value="sleeve/french.jpg">French</option>
+				<option value="sleeve/juliet.jpg">Juliet</option>
+				<option value="sleeve/kimono.jpg">Kimono</option>
+				<option value="sleeve/lantern.jpg">Lantern</option>
+				<option value="sleeve/layered.jpg">Layered</option>
+				<option value="sleeve/marie.jpg">Marie</option>
+				<option value="sleeve/muttonleg.jpg">Mutton Leg</option>
+				<option value="none.jpg">None</option>
+				<option value="sleeve/peasant.jpg">Peasant</option>
+				<option value="sleeve/petal.jpg">Petal</option>
+				<option value="sleeve/poet.jpg">Poet</option>
+				<option value="sleeve/puffed.jpg">Puffed</option>
+				<option value="sleeve/raglan.jpg">Raglan</option>
+				<option value="sleeve/rollup.jpg">Rollup</option>
+				<option value="sleeve/shirt.jpg">Shirt</option>
+				</select></th>
+				<th><button onclick="randomSleeve()">RANDOMIZE</button></th>
+				</tr>
+			</div>
+			<div id="dress">
+			<tr class="neat">
+			<th class="left topSwitcher"><p id="swap">Dress Type:</p></th>
+				 <th><select id="DressType" onchange="dressDisplay()">
+					  <option value="dress/A.jpg">A Shaped</option>				
+					  <option value="dress/Balloon.jpg">Balloon</option>
+					  <option value="dress/Bell.jpg">Bell</option>
+					  <option value="dress/Charleston.jpg">Charleston</option>
+					  <option value="dress/Empire.jpg">Empire</option>
+					  <option value="dress/H.jpg">H Shaped</option>
+					  <option value="dress/I.jpg">I Shaped</option>
+					  <option value="dress/Princess.jpg">Princess</option>
+					  <option value="dress/Trapeze.jpg">Trapeze</option>
+					  <option value="dress/Triangle.jpg">Triangle</option>
+					  <option value="dress/T.jpg">T Shaped</option>
+					  <option value="dress/V.jpg">V Shaped</option>
+					  <option value="dress/X.jpg">X Shaped</option>
+					  <option value="dress/Y.jpg">Y Shaped</option>
+				</select> </th>
+				<th><button onclick="randomDress()">RANDOMIZE</button></th>
+				</tr>
+			</div>
+			<div class="top">
+			
+			</div>
+			<p></p>
+			<div id="Shoes">
+			<tr class="neat">
+			<th class="left">Shoe Style:</th>
+				<th><select id="shoeStyle" onchange="shoeDisplay()">
+					<option value="shoes/AnkleStrap.jpg">Ankle Strap</option>
+					<option value="shoes/Ballerina.jpg">Ballerina</option>
+					<option value="shoes/Bicolor.jpg">Bicolor</option>
+					<option value="shoes/Chelsea.jpg">Chelsea</option>
+					<option value="shoes/Chunky.jpg">Chunky</option>
+					<option value="shoes/Clog.jpg">Clog</option>
+					<option value="shoes/Cone.jpg">Cone</option>
+					<option value="shoes/Country.jpg">Country</option>
+					<option value="shoes/Desert.jpg">Desert</option>
+					<option value="shoes/Dockside.jpg">Dockside</option>
+					<option value="shoes/Dorsay.jpg">Dorsay</option>
+					<option value="shoes/Espadrilla.jpg">Espadrilla</option>
+					<option value="shoes/FlipFlop.jpg">FlipFlop</option>
+					<option value="shoes/fyre.jpg">Fyre</option>
+					<option value="shoes/Kitten.jpg">Kitten</option>
+					<option value="shoes/Loafer.jpg">Loafer</option>
+					<option value="shoes/lobsterclaw.jpg">Lobsterclaw</option>
+					<option value="shoes/Maryjane.jpg">Maryjane</option>
+					<option value="shoes/Mocassin.jpg">Mocassin</option>
+					<option value="shoes/Monk.jpg">Monk</option>
+					<option value="shoes/Mule.jpg">Mule</option>
+					<option value="shoes/OpenToe.jpg">Open Toe</option>
+					<option value="shoes/Oxford.jpg">Oxford</option>
+					<option value="shoes/PeepToe.jpg">Peep Toe</option>
+					<option value="shoes/Platform.jpg">Platform</option>
+					<option value="shoes/Pump.jpg">Pump</option>
+					<option value="shoes/RubySlipper.jpg">Ruby Slipper</option>
+					<option value="shoes/scarpin.jpg">Scarpin</option>
+					<option value="shoes/Slingback.jpg">Slingback</option>
+					<option value="shoes/Slipon.jpg">Slipon</option>
+					<option value="shoes/spool.jpg">Spool</option>
+					<option value="shoes/Stiletto.jpg">Stiletto</option>
+					<option value="shoes/Tstrap.jpg">Tstrap</option>
+					<option value="shoes/Wedge.jpg">Wedge</option>
+					<option value="shoes/Wellington.jpg">Wellington</option>
+					<option value="shoes/winklepicker.jpg">Winklepicker</option>
+				</select></th>
+				<th><button onclick="randomShoe()">RANDOMIZE</button></th>
+				</tr>
+			</div>
+			</table>
+			</div>
+		<div class="outfitdisplay">
+		<table class="tableborder">
+		  <tr>
+			<th></th>
+			<th id="neckImage">Neckline</th>
+			<th></th>
+		  </tr>
+		  <tr>
+			<th id="sleeveImage2" class="sleeveFlip">Sleeve</th>
+			<th id="dressImage">Dress</th>
+			<th id="sleeveImage">Sleeve</th>
+		  </tr>
+		  <tr>
+			<th></th>
+			<th id ="shoeImage">Shoes</th>
+			<th></th>
+		  </tr>
+		  </table>
+		  </div>
+
+	</body>
+
+</html>
