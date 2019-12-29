@@ -11,6 +11,9 @@ Now I've redone the entire concept from scratch, allowing the user to see a roug
 
 ## To download and run this generator, go to [Releases](https://github.com/nyvivianv/Fashion-Outfit-Generator/releases) and download the latest zip, opening the html file in your browser. 
 
+Did this Generator help? Consider supporting further development and donate.
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A6813RUX)
+
 If you're interested in the old gen for some reason, you can also check it out [here](https://orteil.dashnet.org/randomgen/?gen=VZgXtgGu)
 
 The images provided in this generator were not made by me but the plan is to eventually replace the images with custom higher quality assets. The images in this generator are from the [Enerie Fashion Vocabulary](https://enerie.wordpress.com) infographics. 
