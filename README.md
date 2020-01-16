@@ -1,3 +1,6 @@
+## NEW! Online Hosted Mirror
+If for some reason you cannot download this generator (whether you are on mobile or a shared device, you may access the generator ![on my website here](http://yaoimeowmaster.com/fashion-outfit-generator/)
+
 # Fashion-Outfit-Generator
 Tired of just drawing T-shirt and pants? Use this generator and expand your horizons.
 
