@@ -22,10 +22,13 @@ tr.neat > th {
   display: inline-block;
   cursor: pointer;
 }
-div.outfitdisplay > table {
-	display: inline-block;
+div.outfitdisplay {
+	display:inline-block;
 	padding: 1%;
 	margin: 1%;
+	position:absolute;
+	width:400px;
+	height:600px;
 }
 
 div.options {
@@ -48,4 +51,77 @@ select {
 .sleeveFlip > img {
 	-webkit-transform: scaleX(-1);
 	transform: scaleX(-1);
+}
+
+.background {	
+	position:absolute;
+	width:400px;
+	height:600px;
+	}
+
+.gray {
+	background-color:gray;
+}
+
+.red {
+	background-color:red;
+}
+
+.orange {
+	background-color:orange;
+}
+
+.yellow {
+	background-color:yellow;
+}
+
+.green {
+	background-color:green;
+}
+
+.cyan {
+	background-color:cyan;
+}
+
+.blue {
+	background-color:blue;
+}
+
+.purple {
+	background-color:purple;
+}
+
+
+span {
+	display:inline-block;
+	width: 22px;
+	height: 22px;
+	outline: 3px solid black;
+}
+
+/* Images  */
+
+#doll {
+	position:absolute;
+	width:400px;
+	height:600px;
+	background-image:url("img/doll.png");
+}
+
+#neckline {
+	position:absolute;
+	width:400px;
+	height:600px;
+}
+
+#top {
+	position:absolute;
+	width:400px;
+	height:600px;
+}
+
+#sleeves {
+	position:absolute;
+	width:400px;
+	height:600px;
 }
