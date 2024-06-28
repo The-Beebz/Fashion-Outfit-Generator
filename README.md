@@ -1,5 +1,4 @@
-## NEW! Online Hosted Mirror
-If for some reason you cannot download this generator (whether you are on mobile or a shared device, you may access the generator [on my website here](http://yaoimeowmaster.com/fashion-outfit-generator/)
+## Project can now be used via github pages website
 
 # Fashion-Outfit-Generator
 Tired of just drawing T-shirt and pants? Use this generator and expand your horizons.
@@ -10,8 +9,6 @@ I originally made this as a text only generator three years ago on orteil.dashne
 
 Now I've redone the entire concept from scratch, allowing the user to see a rough example of what the ensemble parts look like at a glance, not to mention give them the ability to finetune their choice by randomizing indivudual parts or selecting their own favorite from the list.
 
-![example](https://i.imgur.com/IIrjI5j.gif)
-
 ## To download and run this generator, go to [Releases](https://github.com/nyvivianv/Fashion-Outfit-Generator/releases) and download the latest zip, opening the html file in your browser. 
 
 Did this Generator help? Consider supporting further development and donate.
@@ -19,5 +16,4 @@ Did this Generator help? Consider supporting further development and donate.
 
 If you're interested in the old gen for some reason, you can also check it out [here](https://orteil.dashnet.org/randomgen/?gen=VZgXtgGu)
 
-The images provided in this generator were not made by me but the plan is to eventually replace the images with custom higher quality assets. The images in this generator are from the [Enerie Fashion Vocabulary](https://enerie.wordpress.com) infographics. 
-Next Update: Accessories!
+Assets of this version all drawn by me, but honestly another version may come again. this is basically a dress up game anyway lol.
