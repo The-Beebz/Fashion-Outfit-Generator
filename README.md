@@ -1,5 +1,13 @@
 ## Project can now be used via github pages website
 
+[Click here to access it](https://the-beebz.github.io/Fashion-Outfit-Generator/)
+
+## Final Update
+
+I finally was able to upload all the missing necklines for the top, so top support is fixed. 
+
+This project is now considered retired. I'm glad I was able to retreive the lost files and put the lid happily on my first github project. I initially started on this before I knew of picrew or its popularity, but any sequential projects would probably just use that. Thank you for your support
+
 # Fashion-Outfit-Generator
 Tired of just drawing T-shirt and pants? Use this generator and expand your horizons.
 
